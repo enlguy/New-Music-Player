@@ -33,14 +33,9 @@ const songList = [
         cover: "./assets/images/illcomm.jpg"
     },
     {
-        name: "Be a Music",
-        source: "./assets/music/Be a Music.mp3",
-        cover: "./assets/images/chillhop-3.jpg"
-    },
-    {
-        name: "Slow Day",
-        source: "./assets/music/Slow Day.mp3",
-        cover: "./assets/images/chillhop-4.jpg"
+        name: "So What'Cha Want",
+        source: "./assets/music/So What'Cha Want.mp3",
+        cover: "./assets/images/checkyourhead.jpg"
     }
 ];
 // helper function
