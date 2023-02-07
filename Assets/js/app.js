@@ -21,6 +21,12 @@ let pauseImg = "./assets/images/pause.svg";
 playPause.src = playImg;
 let isPlaying = true;
 
+// volume
+let volume = document.querySelector("#volume-control");
+volume.addEventListener("change", function(e) {
+audio.volume = e.currentTarget.value / 100;
+})
+
 const songList = [
     {
         name: "Root Down",
